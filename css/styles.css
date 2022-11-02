@@ -61,19 +61,26 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+button > i {
+    margin-right: 0.5rem;
+}
+
 /* Tittle Image */
 
 .title-img {
-    width: 60%;
+    width: 28%;
     transform: rotate(25deg);
-    position: relative;
-    left: 20%;
+    position: absolute;
+    /* left: 20%; */
 }
 
 /* Features */
 
 #features {
     padding: 7% 15%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
@@ -151,6 +158,7 @@ p {
     .title-img {
         transform: rotate(0);
         position: static;
+        width: 60%;
     }
 
 }
